@@ -1,0 +1,7 @@
+docs_dir: diary
+nav:
+- Home: index.md
+
+site_name: Diary
+theme:
+  name: material

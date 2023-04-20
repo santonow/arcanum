@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "arcanum"
+version = "0.1.0"
+description = "A minimal package for writing daily notes or a diary, written in Python."
+authors = ["Stanisław Antonowicz <stas.antonowicz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.4.2"
+mkdocs-material = "^9.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
